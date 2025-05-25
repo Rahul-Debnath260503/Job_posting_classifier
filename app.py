@@ -40,7 +40,7 @@ def load_tracked_job_data(file_path):
 
 
 # --- Streamlit App UI ---
-st.title("Kerala Job Finder (powered by Karkidi.com data)")
+st.title("CareerScope Kerala (powered by Karkidi.com data)")
 
 # Load data
 jobs_df = load_job_data(SCRAPED_JOBS_CSV_PATH)
